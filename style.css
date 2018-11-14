@@ -1,0 +1,83 @@
+
+html {
+    font-size: .8em;
+}
+
+#products img {
+    max-width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+      font-size: 1em;
+    }
+    #products img {
+    max-width: 150px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        height: 550px;
+    }
+}
+
+body {
+    position: relative;
+    color: #004d00;
+    background: rgb(75, 231, 75) url("images/bread-background_effects.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main {
+    margin-top: 180px;
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: -5px;    
+}
+
+.carousel-control-prev {
+    left: -5%;
+}
+
+.carousel-control-next {
+    right: -5%;
+}
+
+.jumbotron {
+    min-height: 350px;
+    background-color: rgba(144, 238, 144, .75);
+}
+
+#products {
+    margin-top: 100px;
+    background-color: rgba(144, 238, 144, .75);
+}
+
+#products ul {
+    list-style-type: none;
+}
+
+#products li {
+    padding-bottom: 1em;
+}
+
+.tab-content {
+    background-color: white;
+}
+
+#locations {
+    margin-top: 100px;
+    background-color: rgba(144, 238, 144, .75);
+}
+
+#contact {
+    margin-top: 100px;
+    background-color: rgba(144, 238, 144, .75);
+}
