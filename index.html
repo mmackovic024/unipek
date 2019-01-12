@@ -33,13 +33,13 @@
             </nav>
         </header>
         <main id="main">
-            <section id="home">
-                            <div class="jumbotron w-100 text-center">
-                                <h2>Radno vreme za predstojeće praznike</h2><br>
-                                <h4>25.decembra (utorak) ne radimo,</h4>
-                                <h4>od 29.decembra (ponedeljak) do 7.januara 2019. (ponedeljak) ne radimo.</h4><br>
-                                <h4>Prva isporuka u 2019.godini će biti 8.januara (utorak).</h4>
-                            </div>
+            <section id="home" style="display:none">
+                <div class="jumbotron w-100 text-center">
+                    <h2>Radno vreme za predstojeće praznike</h2><br>
+                    <h4>25.decembra (utorak) ne radimo,</h4>
+                    <h4>od 29.decembra (ponedeljak) do 7.januara 2019. (ponedeljak) ne radimo.</h4><br>
+                    <h4>Prva isporuka u 2019.godini će biti 8.januara (utorak).</h4>
+                </div>
             </section>
 
             <section id="products" class="rounded">
@@ -211,6 +211,7 @@
                                 <li>  Bio Svet, Lajoša Joa bb, pored pijace</li>
                                 <li>  Orgon, Lajoša Joa bb, na pijaci</li>
                                 <li>  Crnković 3G, Plate Dobrojevića 23</li>
+                                <li>  Breuss, Štrosmajerova 5, pored Magnotrona</li>
                                 <li>  Fair, Horgoški put 65, Palić</li>
                             </ul>
                         </div>
@@ -275,7 +276,7 @@
                 $(window).scrollTop(offY); 
             });
             $(navbarLinks + ', a.nav-item').contextmenu((e)=>e.preventDefault());
-            $('body').scrollspy({ target: '#navbar', offset: $('.navbar').outerHeight() + 95 });
+            $('body').scrollspy({ target: '#navbar', offset: $('.navbar').outerHeight() + 150 });
         });
     </script>
 </body>
