@@ -19,13 +19,13 @@ html {
 
 @media screen and (min-width: 992px) {
     .card {
-        height: 600px;
+        height: 620px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .card {
-        height: 530px;
+        height: 550px;
     }
 }
 
