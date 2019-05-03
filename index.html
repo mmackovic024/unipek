@@ -1,278 +1,532 @@
 <!DOCTYPE html>
 <html lang="sr-RS">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Beskvasni hleb i pecivo od integralnog brašna">
-    <meta name="keywords" content="beskvasni, beskvasno, hleb, pecivo, integralno, integralni, hrono">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Beskvasni hleb i pecivo od integralnog brašna"
+    />
+    <meta
+      name="keywords"
+      content="beskvasni, beskvasno, hleb, pecivo, integralno, integralni, hrono"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>UNI-PEK doo Subotica</title>
     <link rel="icon" type="image/png" href="favicon-32x32.png" />
-</head>
-<body id="body">
-    <div id="container" class="container" style="min-width: 360px;" data-spy="scroll" data-target="#navbar">
-        <header class="fixed-top bg-success navbar-dark">
-            <nav  id="navbar" class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#home">
-                    <img src="images/logo.png" alt="logo" class="align-center">
-                    <span class="d-none d-sm-inline pl-4" style="color: rgba(255, 255, 255, .5);">UNI-PEK doo Subotica</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item h5 pl-3 text-success"><a class="nav-link" href="#products" title="Lista proizvoda">Proizvodi</a></li>
-                        <li class="nav-item h5 pl-3 text-success"><a class="nav-link" href="#locations" title="Lista prodajnih mesta">Prodajna mesta</a></li>
-                        <li class="nav-item h5 pl-3 text-success"><a class="nav-link" href="#contact" title="Kontakt informacije">Kontakt</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <main id="main">
-            <section id="home" style="display:none">
-                <div class="jumbotron w-100 text-center">
-                    <h2>Radno vreme za predstojeće praznike</h2><br>
-                    <h4>25.decembra (utorak) ne radimo,</h4>
-                    <h4>od 29.decembra (ponedeljak) do 7.januara 2019. (ponedeljak) ne radimo.</h4><br>
-                    <h4>Prva isporuka u 2019.godini će biti 8.januara (utorak).</h4>
-                </div>
-            </section>
+  </head>
+  <body id="body">
+    <div
+      id="container"
+      class="container"
+      style="min-width: 360px;"
+      data-spy="scroll"
+      data-target="#navbar"
+    >
+      <header class="fixed-top bg-success navbar-dark">
+        <nav id="navbar" class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#home">
+            <img src="images/logo.png" alt="logo" class="align-center" />
+            <span
+              class="d-none d-sm-inline pl-4"
+              style="color: rgba(255, 255, 255, .5);"
+              >UNI-PEK doo Subotica</span
+            >
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item h5 pl-3 text-success">
+                <a class="nav-link" href="#products" title="Lista proizvoda"
+                  >Proizvodi</a
+                >
+              </li>
+              <li class="nav-item h5 pl-3 text-success">
+                <a
+                  class="nav-link"
+                  href="#locations"
+                  title="Lista prodajnih mesta"
+                  >Prodajna mesta</a
+                >
+              </li>
+              <li class="nav-item h5 pl-3 text-success">
+                <a class="nav-link" href="#contact" title="Kontakt informacije"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main id="main">
+        <section id="home" style="display:none">
+          <div class="jumbotron w-100 text-center">
+            <h2>Radno vreme za predstojeće praznike</h2>
+            <br />
+            <h4>25.decembra (utorak) ne radimo,</h4>
+            <h4>
+              od 29.decembra (ponedeljak) do 7.januara 2019. (ponedeljak) ne
+              radimo.
+            </h4>
+            <br />
+            <h4>Prva isporuka u 2019.godini će biti 8.januara (utorak).</h4>
+          </div>
+        </section>
 
-            <section id="products" class="rounded">
-                <h1 class="text-success text-center pt-3">Proizvodi</h1>
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="text-success nav-item nav-link active" id="nav-hleb-tab" data-toggle="tab" href="#nav-hleb" role="tab" aria-controls="nav-hleb" aria-selected="true">
-                            <h6>Hleb</h6>
-                        </a>
-                        <a class="text-success nav-item nav-link" id="nav-pecivo-tab" data-toggle="tab" href="#nav-pecivo" role="tab" aria-controls="nav-pecivo" aria-selected="false">
-                            <h6>Pecivo</h6>
-                        </a>
-                    </div>
-                </nav>
-                <div class="tab-content py-3 rounded-bottom" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-hleb" role="tabpanel" aria-labelledby="nav-hleb-tab">
-                        <ul class="px-4">
-                            <li>
-                                <div class="d-inline-block">
-                                    <a href="images/PBK.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/PBK small.png" alt="Pšenični beskvasni hleb"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Pšenični beskvasni hleb 400g</h6>
-                                    Sastav: 100% pšenično integralno brašno, voda, kiselo testo, biljno ulje, morska so
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-inline-block">
-                                    <a href="images/SBK.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SBK small.png" alt="Speltin beskvasni hleb"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Speltin beskvasni hleb 400g</h6>
-                                     Sastav: 100% speltino integralno brašno, voda, kiselo testo, biljno ulje, morska so
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-inline-block">
-                                    <a href="images/RBK.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/RBK small.png" alt="Raženi beskvasni hleb"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Raženi beskvasni hleb 400g</h6>
-                                    Sastav: 100% raženo integralno brašno, voda, kiselo testo, biljno ulje, morska so
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-inline-block">
-                                    <a href="images/HBK.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/HBK small.png" alt="Heljdin beskvasni hleb"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Heljdin beskvasni hleb 400g</h6>
-                                    Sastav: pšenično integralno brašno, heljdino integralno brašno, voda, kiselo testo, biljno ulje, morska so
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-inline-block">
-                                    <a href="images/BKS.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/BKS small.png" alt="Beskvasni specijalni hleb"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Beskvasni specijalni hleb 400g</h6>
-                                     Sastav: pšenično integralno brašno, voda, kiselo testo, pšenične, ovsene, ražene i ječmene pahuljice, seme lana i suncokreta, biljno ulje, morska so
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-inline-block">
-                                    <a href="images/HRONO.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/HRONO small.png" alt="HRONO hleb"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>HRONO hleb 500g</h6>
-                                    Sastav: speltino, ječmeno i heljdino integralno brašno, voda, seme susama, lana, suncokreta i bundeve, psilijum, maslinovo ulje, morska so
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane fade" id="nav-pecivo" role="tabpanel" aria-labelledby="nav-pecivo-tab">
-                        <ul class="px-4">
-                            <li>
-                                <div class="d-block">
-                                    <a href="images/STANG.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/STANG small.png" alt="Prazno pecivo"></a>
-                                    <a href="images/CIMET.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/CIMET small.png" alt="Prazno pecivo"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Prazno dansko pecivo</h6>
-                                    Sastav: brašno T-500, pšenično integralno brašno, voda, so, biljna masnoća, kvasac<br>
-                                    Posip: susam, rendani sir, cimet
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-block">
-                                    <a href="images/SIR.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SIR small.png" alt="Punjeno pecivo"></a>
-                                    <a href="images/VIS.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/VIS small.png" alt="Punjeno pecivo"></a>
-                                    <a href="images/JAB.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/JAB small.png" alt="Punjeno pecivo"></a>
-                                    <a href="images/KAJ.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/KAJ small.png" alt="Punjeno pecivo"></a>
-                                    <a href="images/EUR.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/EUR small.png" alt="Punjeno pecivo"></a>
-                                    <a href="images/SAMP.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SAMP small.png" alt="Punjeno pecivo"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Punjeno dansko pecivo</h6>
-                                    Sastav: brašno T-500, pšenično integralno brašno, voda, so, biljna masnoća, kvasac<br>
-                                    Nadev: slani sir, višnja, jabuka, kajsija, eurokrem, šampinjoni
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-block">
-                                    <a href="images/SP_pog.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP_pog small.png" alt="Pogačice"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Pogačice 250g</h6>
-                                    Sastav: brašno T-500, pšenično integralno brašno, voda, so, biljna masnoća, kvasac, seme susama
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-block">
-                                    <a href="images/SP_sir.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP_sir small.png" alt="Sitno pecivo"></a>
-                                    <a href="images/SP_vis.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP_vis small.png" alt="Sitno pecivo"></a>
-                                    <a href="images/SP_jab.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP_jab small.png" alt="Sitno pecivo"></a>
-                                    <a href="images/SP_kaj.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP_kaj small.png" alt="Sitno pecivo"></a>
-                                    <a href="images/SP_eur.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP_eur small.png" alt="Sitno pecivo"></a>
-                                    <a href="images/SP_samp.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP_samp small.png" alt="Sitno pecivo"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Sitno punjeno dansko pecivo 250g</h6>
-                                    Sastav: brašno T-500, pšenično integralno brašno, voda, so, biljna masnoća, kvasac<br>
-                                    Nadev: slani sir, višnja, jabuka, kajsija, eurokrem, šampinjoni
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-block">
-                                    <a href="images/SP-200.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP-200 small.png" alt="Štanglice 200g"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Štanglice 200g</h6>
-                                    Sastav: brašno T-500, pšenično integralno brašno, voda, so, biljna masnoća, seme susama
-                                </div>
-                            </li><hr>
-                            <li>
-                                <div class="d-block">
-                                    <a href="images/SP-70.jpg" target="_blank" title="Klikni za veću sliku"><img src="images/SP-70 small.png" alt="Štanglice 70g"></a>
-                                </div>
-                                <div class="w-75 pl-2 d-inline-block align-middle">
-                                    <h6>Štanglice 70g</h6>
-                                    Sastav: brašno T-500, pšenično integralno brašno, voda, so, biljna masnoća
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+        <section id="products" class="rounded">
+          <h1 class="text-success text-center pt-3">Proizvodi</h1>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a
+                class="text-success nav-item nav-link active"
+                id="nav-hleb-tab"
+                data-toggle="tab"
+                href="#nav-hleb"
+                role="tab"
+                aria-controls="nav-hleb"
+                aria-selected="true"
+              >
+                <h6>Hleb</h6>
+              </a>
+              <a
+                class="text-success nav-item nav-link"
+                id="nav-pecivo-tab"
+                data-toggle="tab"
+                href="#nav-pecivo"
+                role="tab"
+                aria-controls="nav-pecivo"
+                aria-selected="false"
+              >
+                <h6>Pecivo</h6>
+              </a>
+            </div>
+          </nav>
+          <div class="tab-content py-3 rounded-bottom" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="nav-hleb"
+              role="tabpanel"
+              aria-labelledby="nav-hleb-tab"
+            >
+              <ul class="px-4">
+                <li>
+                  <div class="d-inline-block">
+                    <a
+                      href="images/PBK.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img
+                        src="images/PBK small.png"
+                        alt="Pšenični beskvasni hleb"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Pšenični beskvasni hleb 400g</h6>
+                    Sastav: 100% pšenično integralno brašno, voda, kiselo testo,
+                    biljno ulje, morska so
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-inline-block">
+                    <a
+                      href="images/SBK.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img
+                        src="images/SBK small.png"
+                        alt="Speltin beskvasni hleb"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Speltin beskvasni hleb 400g</h6>
+                    Sastav: 100% speltino integralno brašno, voda, kiselo testo,
+                    biljno ulje, morska so
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-inline-block">
+                    <a
+                      href="images/RBK.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img
+                        src="images/RBK small.png"
+                        alt="Raženi beskvasni hleb"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Raženi beskvasni hleb 400g</h6>
+                    Sastav: 100% raženo integralno brašno, voda, kiselo testo,
+                    biljno ulje, morska so
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-inline-block">
+                    <a
+                      href="images/HBK.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img
+                        src="images/HBK small.png"
+                        alt="Heljdin beskvasni hleb"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Heljdin beskvasni hleb 400g</h6>
+                    Sastav: pšenično integralno brašno, heljdino integralno
+                    brašno, voda, kiselo testo, biljno ulje, morska so
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-inline-block">
+                    <a
+                      href="images/BKS.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img
+                        src="images/BKS small.png"
+                        alt="Beskvasni specijalni hleb"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Beskvasni specijalni hleb 400g</h6>
+                    Sastav: pšenično integralno brašno, voda, kiselo testo,
+                    pšenične, ovsene, ražene i ječmene pahuljice, seme lana i
+                    suncokreta, biljno ulje, morska so
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-inline-block">
+                    <a
+                      href="images/HRONO.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/HRONO small.png" alt="HRONO hleb"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>HRONO hleb 500g</h6>
+                    Sastav: speltino, ječmeno i heljdino integralno brašno,
+                    voda, seme susama, lana, suncokreta i bundeve, psilijum,
+                    maslinovo ulje, morska so
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-pecivo"
+              role="tabpanel"
+              aria-labelledby="nav-pecivo-tab"
+            >
+              <ul class="px-4">
+                <li>
+                  <div class="d-block">
+                    <a
+                      href="images/STANG.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/STANG small.png" alt="Prazno pecivo"
+                    /></a>
+                    <a
+                      href="images/CIMET.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/CIMET small.png" alt="Prazno pecivo"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Prazno dansko pecivo</h6>
+                    Sastav: brašno T-500, pšenično integralno brašno, voda, so,
+                    biljna masnoća, kvasac<br />
+                    Posip: susam, rendani sir, cimet
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-block">
+                    <a
+                      href="images/SIR.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SIR small.png" alt="Punjeno pecivo"
+                    /></a>
+                    <a
+                      href="images/VIS.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/VIS small.png" alt="Punjeno pecivo"
+                    /></a>
+                    <a
+                      href="images/JAB.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/JAB small.png" alt="Punjeno pecivo"
+                    /></a>
+                    <a
+                      href="images/KAJ.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/KAJ small.png" alt="Punjeno pecivo"
+                    /></a>
+                    <a
+                      href="images/EUR.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/EUR small.png" alt="Punjeno pecivo"
+                    /></a>
+                    <a
+                      href="images/SAMP.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SAMP small.png" alt="Punjeno pecivo"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Punjeno dansko pecivo</h6>
+                    Sastav: brašno T-500, pšenično integralno brašno, voda, so,
+                    biljna masnoća, kvasac<br />
+                    Nadev: slani sir, višnja, jabuka, kajsija, eurokrem,
+                    šampinjoni
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-block">
+                    <a
+                      href="images/SP_pog.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP_pog small.png" alt="Pogačice"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Pogačice 250g</h6>
+                    Sastav: brašno T-500, pšenično integralno brašno, voda, so,
+                    biljna masnoća, kvasac, seme susama
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-block">
+                    <a
+                      href="images/SP_sir.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP_sir small.png" alt="Sitno pecivo"
+                    /></a>
+                    <a
+                      href="images/SP_vis.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP_vis small.png" alt="Sitno pecivo"
+                    /></a>
+                    <a
+                      href="images/SP_jab.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP_jab small.png" alt="Sitno pecivo"
+                    /></a>
+                    <a
+                      href="images/SP_kaj.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP_kaj small.png" alt="Sitno pecivo"
+                    /></a>
+                    <a
+                      href="images/SP_eur.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP_eur small.png" alt="Sitno pecivo"
+                    /></a>
+                    <a
+                      href="images/SP_samp.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP_samp small.png" alt="Sitno pecivo"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Sitno punjeno dansko pecivo 250g</h6>
+                    Sastav: brašno T-500, pšenično integralno brašno, voda, so,
+                    biljna masnoća, kvasac<br />
+                    Nadev: slani sir, višnja, jabuka, kajsija, eurokrem,
+                    šampinjoni
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-block">
+                    <a
+                      href="images/SP-200.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP-200 small.png" alt="Štanglice 200g"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Štanglice 200g</h6>
+                    Sastav: brašno T-500, pšenično integralno brašno, voda, so,
+                    biljna masnoća, seme susama
+                  </div>
+                </li>
+                <hr />
+                <li>
+                  <div class="d-block">
+                    <a
+                      href="images/SP-70.jpg"
+                      target="_blank"
+                      title="Klikni za veću sliku"
+                      ><img src="images/SP-70 small.png" alt="Štanglice 70g"
+                    /></a>
+                  </div>
+                  <div class="w-75 pl-2 d-inline-block align-middle">
+                    <h6>Štanglice 70g</h6>
+                    Sastav: brašno T-500, pšenično integralno brašno, voda, so,
+                    biljna masnoća
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-            <section id="locations" class="p-3 rounded">
-                <h1 class="text-success text-center pb-4">Prodajna mesta</h1>
-                <div class="row">
-                    <div class="card col-lg px-0 m-2">
-                        <div class="card-header" style="height: 6.5rem;">
-                            <h3>Subotica</h3>
-                            <h6>Isporuka peciva svakim radnim danom, hleba utorkom i petkom</h6>
-                        </div>
-                        <ul class="pr-1">
-                            <li>  Natura, u prizemlju Gradske kuće</li>
-                            <li>  Bioteka, Trg Jakaba i Komora, u dvorištu</li>
-                            <li>  Herbina, na Mlečnoj pijaci</li>
-                            <li>  Bio-kutak, Dimitrija Tucovića 2</li>
-                            <li>  Bundevica, Arsenija Čarnojevića 38</li>
-                            <li>  Matija Paunovski, Matka Vukovića 9</li>
-                            <li>  Bionova, Korzo 10b</li>
-                            <li>  Taki Plus, Partizanskih baza bb, preko puta pijace</li>
-                            <li>  Sunce 024, Partizanskih baza bb, preko puta Crnog Džoa</li>
-                            <li>  Bio Mix Led, Partizanskih baza 33</li>
-                            <li>  Bio Svet, Lajoša Joa bb, pored pijace</li>
-                            <li>  Orgon, Lajoša Joa bb, na pijaci</li>
-                            <li>  Crnković 3G, Plate Dobrojevića 23</li>
-                            <li>  Breuss, Štrosmajerova 5, pored Magnotrona</li>
-                            <li>  Sanitas, Somborski put 28, kod pekare Luka</li>
-                            <li>  Fair, Horgoški put 65, Palić</li>
-                        </ul>
-                    </div>
-                    <div class="card col-lg px-0 m-2">
-                        <div class="card-header" style="height: 6.5rem;">
-                            <h3>Novi Sad</h3>
-                            <h6>Isporuka sredom</h6>
-                        </div>
-                        <ul class="pr-1">
-                            <li>  Bio Lučar, Bulevar Oslobođenja 11</li>
-                            <li>  Bio Lučar, Bulevar Oslobođenja 30</li>
-                            <li>  Bio Lučar, Fruškogorska 18</li>
-                            <li>  Bio Hrana Plus, Bulevar Jovana Dučića 7</li>
-                            <li>  Bio Hrana Plus, Rumenačka 17</li>
-                            <li>  Bio Hrana Plus, Bulevar Cara Lazara 92</li>
-                            <li>  Palma, ugao Banatske i Milenka Grčića</li>
-                            <li>  Priroda, Limanska pijaca</li>
-                            <li>  Smokvica Sweet, Braće Ribnikar 41</li>
-                            <!-- <li>  Čardak, Futoška pijaca</li> -->
-                        </ul>
-                    </div>
-                    <div class="card col-lg px-0 m-2">
-                        <div class="card-header" style="height: 6.5rem;"><h3>Ostalo</h3></div>
-                        <ul class="pr-1">
-                            <li>  Biomag, Kanjiža, Pijačni trg 13<br><h6>Isporuka utorkom</h6></li>
-                            <li>  Bio-shop, Bačka Topola, Glavna 46<br><h6>Isporuka sredom</h6></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+        <section id="locations" class="p-3 rounded">
+          <h1 class="text-success text-center pb-4">Prodajna mesta</h1>
+          <div class="row">
+            <div class="card col-lg px-0 m-2">
+              <div class="card-header" style="height: 6.5rem;">
+                <h3>Subotica</h3>
+                <h6>
+                  Isporuka peciva svakim radnim danom, hleba utorkom i petkom
+                </h6>
+              </div>
+              <ul class="pr-1">
+                <li>Natura, u prizemlju Gradske kuće</li>
+                <li>Bioteka, Trg Jakaba i Komora, u dvorištu</li>
+                <li>Herbina, na Mlečnoj pijaci</li>
+                <li>Bio-kutak, Dimitrija Tucovića 2</li>
+                <li>Bundevica, Arsenija Čarnojevića 38</li>
+                <li>Matija Paunovski, Matka Vukovića 9</li>
+                <li>Bionova, Korzo 10b</li>
+                <li>Taki Plus, Partizanskih baza bb, preko puta pijace</li>
+                <li>Sunce 024, Partizanskih baza bb, preko puta Crnog Džoa</li>
+                <li>Bio Mix Led, Partizanskih baza 33</li>
+                <li>Bio Svet, Lajoša Joa bb, pored pijace</li>
+                <li>Orgon, Lajoša Joa bb, na pijaci</li>
+                <li>Crnković 3G, Plate Dobrojevića 23</li>
+                <li>Breuss, Štrosmajerova 5, pored Magnotrona</li>
+                <li>Sanitas, Braće Radić 14, preko puta Dexy Co Kids</li>
+                <li>Fair, Horgoški put 65, Palić</li>
+              </ul>
+            </div>
+            <div class="card col-lg px-0 m-2">
+              <div class="card-header" style="height: 6.5rem;">
+                <h3>Novi Sad</h3>
+                <h6>Isporuka sredom</h6>
+              </div>
+              <ul class="pr-1">
+                <li>Bio Lučar, Bulevar Oslobođenja 11</li>
+                <li>Bio Lučar, Bulevar Oslobođenja 30</li>
+                <li>Bio Lučar, Fruškogorska 18</li>
+                <li>Bio Hrana Plus, Bulevar Jovana Dučića 7</li>
+                <li>Bio Hrana Plus, Rumenačka 17</li>
+                <li>Bio Hrana Plus, Bulevar Cara Lazara 92</li>
+                <li>Palma, ugao Banatske i Milenka Grčića</li>
+                <li>Priroda, Limanska pijaca</li>
+                <!-- <li>Smokvica Sweet, Braće Ribnikar 41</li> -->
+              </ul>
+            </div>
+            <div class="card col-lg px-0 m-2">
+              <div class="card-header" style="height: 6.5rem;">
+                <h3>Ostalo</h3>
+              </div>
+              <ul class="pr-1">
+                <li>
+                  Biomag, Kanjiža, Pijačni trg 13<br />
+                  <h6>Isporuka utorkom</h6>
+                </li>
+                <li>
+                  Bio-shop, Bačka Topola, Glavna 46<br />
+                  <h6>Isporuka sredom</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-            <section id="contact" class="mb-5 rounded">
-                <div class="p-3">
-                    <h1 class="text-success text-center pb-3">Kontakt informacije</h1>
-                    <h3 class="text-center">UNI-PEK d.o.o.</h3>
-                    <div class="mx-auto" style="width: 380px">
-                        <h4><span class="fas fa-envelope" style="width: 3rem"></span>Bajmočka 122, 24000 Subotica</h4>
-                        <h4><span class="fas fa-phone" style="width: 3rem"></span>024 576 844</h4>
-                        <h4><span class="fas fa-at" style="width: 3rem"></span><a href="mailto:info@unipek.rs" target="_top">info@unipek.rs</a></h4>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="text-center h5 pb-3">&copy;2018. UNI-PEK doo Subotica</footer>
+        <section id="contact" class="mb-5 rounded">
+          <div class="p-3">
+            <h1 class="text-success text-center pb-3">Kontakt informacije</h1>
+            <h3 class="text-center">UNI-PEK d.o.o.</h3>
+            <div class="mx-auto" style="width: 380px">
+              <h4>
+                <span class="fas fa-envelope" style="width: 3rem"></span
+                >Bajmočka 122, 24000 Subotica
+              </h4>
+              <h4>
+                <span class="fas fa-phone" style="width: 3rem"></span>024 576
+                844
+              </h4>
+              <h4>
+                <span class="fas fa-at" style="width: 3rem"></span
+                ><a href="mailto:info@unipek.rs" target="_top"
+                  >info@unipek.rs</a
+                >
+              </h4>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="text-center h5 pb-3">
+        &copy;2018. UNI-PEK doo Subotica
+      </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-            const   navbarLinks = 'ul li .nav-link, .navbar-brand',
-                    navbarHeight = $('.navbar').outerHeight();
-            $(navbarLinks).click(function(e){
-                e.preventDefault();
-                const   elem = $(this).attr('href'),
-                        offY = $(elem).offset().top - (navbarHeight + 15);
-                $(window).scrollTop(offY); 
-            });
-            $(navbarLinks + ', a.nav-item').contextmenu((e)=>e.preventDefault());
-            $('body').scrollspy({ target: '#navbar', offset: navbarHeight + 150 });
+      $(document).ready(function() {
+        const navbarLinks = 'ul li .nav-link, .navbar-brand',
+          navbarHeight = $('.navbar').outerHeight();
+        $(navbarLinks).click(function(e) {
+          e.preventDefault();
+          const elem = $(this).attr('href'),
+            offY = $(elem).offset().top - (navbarHeight + 15);
+          $(window).scrollTop(offY);
         });
+        $(navbarLinks + ', a.nav-item').contextmenu(e => e.preventDefault());
+        $('body').scrollspy({ target: '#navbar', offset: navbarHeight + 150 });
+      });
     </script>
-</body>
+  </body>
 </html>
